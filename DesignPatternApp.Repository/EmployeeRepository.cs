@@ -53,7 +53,6 @@ namespace DesignPatternApp.Repository
             }
 
             return false;
-
         }
 
     }
