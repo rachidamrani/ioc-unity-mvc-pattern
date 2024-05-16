@@ -49,6 +49,7 @@ namespace DesignPatternApp.Unit.Tests
             // Act
             Employee? result = _sut.GetEmployeeById(id);
 
+            // Assert
             result.Should().BeEquivalentTo(expectedEmployee);
         }
     }
